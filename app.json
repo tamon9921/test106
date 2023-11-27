@@ -20,7 +20,7 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [-0.8886488076666501,0,0.45858837385245754,0,0.20391619110198994,0.8956991303608738,0.3951471306706287,0,-0.4107572076532533,0.4446606210030006,-0.7959619642232454,0,-4.51976309207926,5.011793281444836,-8.724076056084126,1],
+			"matrix": [-0.351703541271107,2.775557561562892e-17,0.9361114351707085,0,0.3695296355573771,0.9187887328518717,0.1388348401132935,0,-0.860088639328642,0.39474962239937816,-0.3231412510239963,0,-7.78577010641825,3.818619386871274,-3.2071655224848388,1],
 			"up": [0,1,0],
 			"fov": 50,
 			"zoom": 1,
@@ -109,12 +109,12 @@
 			}],
 		"materials": [
 			{
-				"uuid": "d463e046-e2b2-4996-af7f-524774689eeb",
+				"uuid": "3eceddff-8686-4caf-ae60-4727c4d3fb6a",
 				"type": "MeshStandardMaterial",
 				"name": "マテリアル.001",
-				"color": 12237498,
-				"roughness": 1,
-				"metalness": 1,
+				"color": 5723991,
+				"roughness": 0.82,
+				"metalness": 0.74,
 				"emissive": 0,
 				"envMapIntensity": 1,
 				"side": 2,
@@ -151,7 +151,7 @@
 					"matrix": [50,0,0,0,0,1,0,0,0,0,50,0,0,0,0,1],
 					"up": [0,1,0],
 					"geometry": "69235e64-792b-40c2-af3c-98fe127de0b5",
-					"material": "d463e046-e2b2-4996-af7f-524774689eeb"
+					"material": "3eceddff-8686-4caf-ae60-4727c4d3fb6a"
 				},
 				{
 					"uuid": "c9c6f7c9-fee3-4edd-9923-4eb94058a044",
@@ -265,10 +265,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-1.25,0.3,1.25,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "8adbb6d7-5dad-4066-be23-796e8cc4854e",
 							"type": "PerspectiveCamera",
@@ -293,10 +294,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.3,2,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "dbe392d4-38e8-463b-9e55-bc602d73bdcc",
 							"type": "PerspectiveCamera",
@@ -321,10 +323,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,1.25,0.3,1.25,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "299ac6df-60bf-4b14-8270-b8cabe70f281",
 							"type": "PerspectiveCamera",
@@ -349,10 +352,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,2,0.3,0,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "87c37dc7-5ae4-4095-ad5d-e9c5fb74c62d",
 							"type": "PerspectiveCamera",
@@ -377,10 +381,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,1.25,0.3,-1.25,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "059dbba8-2aaf-4a2d-88db-52616360d17e",
 							"type": "PerspectiveCamera",
@@ -405,10 +410,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-2,0.3,0,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "9c2d1eaf-9433-4dc9-9279-71afecfdac90",
 							"type": "PerspectiveCamera",
@@ -433,10 +439,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-1.25,0.3,-1.25,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "c6a18d08-57ac-4ef0-a361-ae097c114747",
 							"type": "PerspectiveCamera",
@@ -461,10 +468,11 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.3,-2,1],
 					"up": [0,1,0],
 					"color": 16777215,
-					"intensity": 0.5,
+					"intensity": 0.3,
 					"distance": 0,
 					"decay": 2,
 					"shadow": {
+						"radius": 0,
 						"camera": {
 							"uuid": "0d2cb75f-9853-4fca-99ac-71f8c5e5acd1",
 							"type": "PerspectiveCamera",
